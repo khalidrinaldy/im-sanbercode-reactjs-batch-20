@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.App {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-beli-buah {
+  background-color: #8c9ec2;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.form-beli-buah h1 {
+  text-align: center;
+}
+
+form {
+  font-size: 18px;
+}
+
+.input {
+  position: absolute;
+  right: 50%;
+}
+
+.buah {
+  position: absolute;
+  right: 27%;
+}
+
+#nama-pelanggan {
+  width: 50%;
+  margin-left: 30px;
+  height: 20px;
+  font-size: 18px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.submit {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 30px;
+  background-color: #282c34;
+  border: 1px solid #282c34;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+}
+
+.submit:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+}
