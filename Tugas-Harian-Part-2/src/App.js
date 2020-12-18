@@ -7,8 +7,9 @@ let dataHargaBuah = [
   {nama: "Anggur", harga: 40000, berat: 500},
   {nama: "Strawberry", harga: 30000, berat: 400},
   {nama: "Jeruk", harga: 30000, berat: 1000},
-  {nama: "Mangga", harga: 30000, berat: 500}
+  {nama: "Mangga", harga: 30000, berat: 500},
 ];
+
 
 function App() {
   return (
