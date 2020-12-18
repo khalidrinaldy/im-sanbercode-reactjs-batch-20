@@ -1,5 +1,13 @@
 import React, { Component } from 'react'
 
+let dataHargaBuah = [
+    {nama: "Semangka", harga: 10000, berat: 1000},
+    {nama: "Anggur", harga: 40000, berat: 500},
+    {nama: "Strawberry", harga: 30000, berat: 400},
+    {nama: "Jeruk", harga: 30000, berat: 1000},
+    {nama: "Mangga", harga: 30000, berat: 500}
+];
+
 export default class Tugas10 extends Component {
     render() {
         return (
@@ -11,7 +19,7 @@ export default class Tugas10 extends Component {
                         <th>Harga</th>
                         <th>Berat</th>
                     </tr>
-                    {this.props.dataHargaBuah.map((item) => 
+                    {dataHargaBuah.map((item) => 
                         <tr className="table-row-child">
                             <td>{item.nama}</td>
                             <td>{item.harga}</td>
