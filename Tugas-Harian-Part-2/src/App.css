@@ -9,7 +9,7 @@ body {
 }
 
 .App {
-  height: 800px;
+  height: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,4 +110,18 @@ th {
 
 .table-row-child {
   background-color: #9ab0db;
+}
+
+.timer {
+  background-color: #8c9ec2;
+  height: 200px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+  
+}
+
+.timer h2 {
+  text-align: center;
 }
