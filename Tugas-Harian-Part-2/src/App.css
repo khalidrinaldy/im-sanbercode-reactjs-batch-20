@@ -11,7 +11,7 @@ body {
 .App {
   height: 1200px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
 }
@@ -25,7 +25,7 @@ body {
   position: relative;
 }
 
-.form-beli-buah h1 {
+h1 {
   text-align: center;
 }
 
@@ -72,12 +72,15 @@ form {
 }
 
 .daftar-buah {
+  display: inline-block;
   background-color: #8c9ec2;
-  height: 300px;
+  height: 400px;
   width: 600px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-top: 10px;
+  
 }
 
 .daftar-buah h1 {
@@ -125,3 +128,97 @@ th {
 .timer h2 {
   text-align: center;
 }
+
+.div-tugas12 {
+  height: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-tambah {
+  display: inline-block;
+  background-color: #8c9ec2;
+  height: 300px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  padding-top: 10px;
+  margin-left: 40px;
+}
+
+.input-tambah {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  height: 20px;
+  width: 250px;
+}
+
+.label-tambah {
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.submit-tambah {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 24px;
+  background-color: #282c34;
+  color: white;
+  border: 2px solid #616e87;
+}
+
+.submit-tambah:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+}
+
+.button {
+  background-color: #616e87;
+  color: white;
+  border: 2px solid #282c34;
+  margin-left: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+}
+
+@keyframes slideInFromUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.form-edit {
+  position: absolute;
+  background-color: #8c9ec2;
+  height: 300px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  padding-top: 10px;
+  animation: 1s ease-out 0s 1 slideInFromUp;
+}
+
+.close-edit {
+  float: right;
+  background: none;
+  display: inline;
+  border: 1px solid #8c9ec2;
+  font-size: 24px;
+}
+
+.close-edit:hover {
+  cursor: pointer;
+}
+
