@@ -3,7 +3,8 @@ import './App.css';
 //import Tugas10 from './Tugas-10/Tugas10';
 //import Tugas11 from './Tugas-11/Tugas11';
 //import Tugas12 from './Tugas-12/Tugas12';
-import Tugas13 from './Tugas-13/Tugas13';
+//import Tugas13 from './Tugas-13/Tugas13';
+import Main from './Tugas-14/Main';
 
 /*let dataHargaBuah = [
   {nama: "Semangka", harga: 10000, berat: 1000},
@@ -17,8 +18,9 @@ import Tugas13 from './Tugas-13/Tugas13';
 function App() {
   return (
     <div className="App">
-      <Tugas13 />
-      {/*<Tugas12 />
+      <Main />
+      {/*<Tugas13 />
+      <Tugas12 />
       <Tugas11 />
       <Tugas10 dataHargaBuah={dataHargaBuah}/>
       <Tugas9 />{*/}
