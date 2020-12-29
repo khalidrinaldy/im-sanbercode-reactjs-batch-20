@@ -4,16 +4,13 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-body {
-  background-color: #282c34;
-}
-
 .App {
   height: 1200px;
   display: flex;
   justify-content: start;
   align-items: center;
   flex-direction: column;
+  background-color: #282c34;
 }
 
 .form-beli-buah {
@@ -129,7 +126,7 @@ th {
   text-align: center;
 }
 
-.div-tugas14 {
+.div-tugas14, .div-tugas12 {
   height: 1200px;
   width: 100%;
   display: flex;
@@ -222,3 +219,31 @@ th {
   cursor: pointer;
 }
 
+.navbar {
+  width: 100%;
+  height: 150px;
+  top: 0;
+  background-color: #616e87;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #282c34;
+}

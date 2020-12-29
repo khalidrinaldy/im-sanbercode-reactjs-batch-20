@@ -4,7 +4,9 @@ import './App.css';
 //import Tugas11 from './Tugas-11/Tugas11';
 //import Tugas12 from './Tugas-12/Tugas12';
 //import Tugas13 from './Tugas-13/Tugas13';
-import Main from './Tugas-14/Main';
+//import Main from './Tugas-14/Main';
+import Tugas15 from './Tugas-15/Tugas15';
+import ThemeProvider, {ThemeContext} from './Tugas-15/ThemeContext';
 
 /*let dataHargaBuah = [
   {nama: "Semangka", harga: 10000, berat: 1000},
@@ -16,10 +18,14 @@ import Main from './Tugas-14/Main';
 
 
 function App() {
+  
   return (
     <div className="App">
-      <Main />
-      {/*<Tugas13 />
+      <ThemeProvider>
+        <Tugas15 />
+      </ThemeProvider>
+      {/*<Main />
+      <Tugas13 />
       <Tugas12 />
       <Tugas11 />
       <Tugas10 dataHargaBuah={dataHargaBuah}/>
