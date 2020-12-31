@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.App {
+  background-image: url(./images/pattern.jpg);
+  height: 100%
+}
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 80px;
+}
+
+.navbar img {
+  width: 200px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.navbar nav {
+  width: 300px;
+  float: right;
+  margin-right: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+  padding-left: 0;
+  align-items: center;
+}
+
+.navbar nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+  cursor: pointer;
+  color: #adadad;
+}
+
+.home {
+  width: 800px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home h1 {
+  text-align: center;
+}
+
+.about {
+  height: 800px;
+  width: 100%;
+  background-image: url(./images/pattern.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data-diri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 200px;
+  margin-top: 200px;
+  background-color: #d4d4d4;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.data-diri h1 {
+  text-align: center;
+}
+
+.data-diri:hover {
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+}
+
+.book-design {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.book-design img {
+  height: 250px;
+  width: 250px;
+}
+
+.book {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.booklisteditor {
+  width: 800px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.search :nth-child(1){
+  margin-right: 20px;
+}
+
+.button {
+  background-color: #90a9de;
+  border: 2px solid #7285ad;
+  color: black;
+  font-weight: bold;
+}
+
+.button:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+}
+
+.book-table form{
+  text-align: center;
+}
+
+.book-table h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table thead {
+  background-color: #89ABE3FF;
+}
+
+table tbody {
+  background-color: #d9f4ff;
+}
+
+.book-editor {
+  background-color: #baebff;
+  margin-top: 40px;
+  height: 700px;
+}
+
+.book-editor h1 {
+  text-align: center;
+}
+
+.book-editor form {
+  padding-left: 30px;
+}
+
+.area {
+  display: inline-block;
+  width: 200px;
+  background-color: #baebff;
+}
+
+.book-editor form label {
+  display: inline-block;
+  width: 100px;
+}
+
+.book-editor form label, .book-editor form input, .book-editor form textarea {
+  margin-top: 30px;
+}
+
+.form-submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logout {
+  background: none;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.logout:hover {
+  color: #adadad;
+  cursor: pointer;
+}
+
+.login-page {
+  height: 800px;
+  width: 100%;
+  background-image: url(./images/pattern.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  height: 400px;
+  width: 500px;
+  background-color: #dbe7ff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.login:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.login h1 {
+  text-align: center;
+}
+
+.login form input {
+  display: block;
+}
+
+.login-input {
+  width: 60%;
+  height: 24px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.button-login {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-image: url(pattern.jpg);
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    width: 300px;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: #adadad;
+}
+
+section {
+    width: 800px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    
+}
+
+section h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 200px;
+    margin-top: 200px;
+    background-color: #d4d4d4;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#about:hover {
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#about a {
+    text-decoration: none;
+    color: black;
+}
+
+#about a:hover {
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 550px;
+    margin-top: 150px;
+    background-color: #ededed;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#contact h1 {
+    text-align: center;
+}
+
+#contact:hover {
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+}
+
+#form {
+    height: 280px;
+    position: relative;
+}
+.input {
+    float: right;
+    width: 250px;
+    margin-right: 150px;
+}
+
+#maleLabel {
+    float: right;
+    margin-right: 320px;
+}
+
+#femaleLabel {
+    float: right;
+    margin-right: 302px;
+}
+
+.inputRadio {
+    float: right;
+}
+
+#pesan {
+    float: right;
+    margin-right: 36px;
+}
+
+#buttonKirim {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    width: 70px;
+    height: 30px;
+    background-color: #8f9491;
+    border: 1px solid #8f9491;
+    font-weight: bold;
+    
+}
+
+#buttonKirim:hover {
+    cursor: pointer;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+#contact a:hover {
+    cursor: pointer;
+    color: #8f9491;
+}
