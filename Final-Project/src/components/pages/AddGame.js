@@ -2,7 +2,7 @@ import React, {useState, useEffect, useContext} from 'react';
 import {GameContext} from '../Context/GameProvider';
 import {UserContext} from '../Context/UserProvider';
 import { Form, Input, InputNumber, Button, message } from 'antd';
-import {useHistory} from 'react-router-dom';
+import {useHistory, Redirect} from 'react-router-dom';
 import axios from 'axios';
 
 const layout = {
