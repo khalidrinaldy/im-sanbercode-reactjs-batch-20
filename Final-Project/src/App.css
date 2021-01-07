@@ -1,0 +1,339 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.App {
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  background-color: #1c1c26;
+  color: white;
+  
+}
+
+.ant-layout {
+  height: 100%;
+}
+
+.header {
+  padding: 0;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 100%;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.logo h1 {
+  color: #FFFFFFFF;
+  text-align: center;
+  font-size: 32px;
+}
+
+.ant-menu-horizontal {
+  float: right;
+  margin-right: 80px;
+  width: 500px;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  color: white;
+  background-color: #001529;
+}
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+  color: white;
+  background-color: #383838;
+}
+
+.game-logo {
+  margin-right: 10px;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.register, .login, .changePassword {
+  min-height: 800px;
+  width: 100%;
+  background-color: #001529;
+  display: flex;
+  justify-content: center;
+}
+
+.register form, .login form, .changePassword form {
+  width: 400px;
+  height: 400px;
+  background-color: #ADEFD1FF;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding: 60px;
+}
+
+.register form h1, .login form h1, .changePassword form h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.register form input, .login form input, .changePassword form input {
+  display: block;
+  margin-top: 20px;
+}
+
+.input-auth {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #aee8b5;
+  border: 1px solid #aee8b5;
+}
+
+
+.button-register, .button-login, .button-changePassword {
+  width: 100%;
+  height: 40px;
+  background-color: #001529;
+  border: 1px solid #001529;
+  color: #ADEFD1FF;
+}
+
+.button-register:hover, .button-login:hover, .button-changePassword:hover {
+  cursor: pointer;
+}
+
+.logout {
+  background: none;
+  border: none;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+.welcome {
+  color: #fff;
+  background: #1890ff;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
+  background-color: #001529;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 200px;
+}
+
+.section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: 'Acme', sans-serif;
+}
+
+.section h4 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 1.5px;
+}
+
+.section h1, .section h4 {
+  color: white;
+}
+
+.movie-section, .game-section {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.movie-section h2, .game-section h2 {
+  color: white;
+  font-size: 28px;
+}
+
+.grid-list {
+  width: 100%;
+  height: 200px;
+}
+
+.sc-dnqmqq {
+  border-radius: 5px;
+  border: 2px solid #001529;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sc-dnqmqq:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.grid-image {
+  width: 350px;
+  height: 200px;
+}
+
+.grid-title {
+  text-align: center;
+  color: white;
+}
+
+.pageMovie, .pageGame {
+  min-height: 800px;
+  width: 100%;
+  background-color: #001529;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-top, .game-top {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.movie-top img, .game-top img {
+  width: 300px;
+  height: 400px;
+  margin-right: 100px;
+}
+
+.movie-top-desc h1, .game-top-desc h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.movie-top-desc p, .game-top-desc p {
+  color: white;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.movie-bottom h2 {
+  color: white;
+  font-size: 28px;
+}
+
+.movie-bottom p {
+  color: white;
+  font-size: 18px;
+}
+
+.movie, .game {
+  min-height: 800px;
+  width: 100%;
+  background-color: #001529;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.movie figure, .game figure {
+  height: 350px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.movie figure:hover, .game figure:hover {
+  box-shadow: 8px 8px 20px 8px rgba(0, 0, 0, 0.8);
+  filter: brightness(85%);
+  cursor: pointer;
+}
+
+.movie figure img, .game figure img {
+  width: 90%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie figure figcaption, .game figure figcaption {
+  color: white;
+}
+
+.caption {
+  margin-left: 15px;
+}
+
+.movie-editor, .game-editor {
+  min-height: 800px;
+  width: 100%;
+  background-color: #001529;
+  padding: 30px;
+}
+
+.movie-table, .game-table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-editor {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.add-movie, .add-game {
+  min-height: 800px;
+  width: 100%;
+  padding: 30px;
+  background:  url(https://media.giphy.com/media/2mBk7XbITXRII/giphy.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.add-movie h1, .add-game h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.input {
+  border: 1px solid black;
+}
+
+.input-text {
+  width: 400px;
+}
+
+.input-number {
+  width: 100px;
+}
